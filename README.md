@@ -37,3 +37,27 @@ It integrates intelligent features like **LLM‑powered visit summaries**, **Goo
 ---
 
 ## 🗂️ Project Structure
+healthcare-appointment-manager/
+│
+├── backend/
+│   ├── src/
+│   │   ├── controllers/
+│   │   ├── models/
+│   │   ├── routes/
+│   │   └── middleware/
+│   ├── server.js
+│   └── package.json
+│
+├── frontend/
+│   ├── pages/
+│   ├── components/
+│   └── package.json
+│
+├── docs/
+│   ├── API.md
+│   ├── DB_SCHEMA.md
+│   ├── SYSTEM_DESIGN.md
+│   ├── LLM_PROMPTS.md
+│   └── GOOGLE_CALENDAR.md
+│
+└── .env.example
